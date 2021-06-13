@@ -8,6 +8,7 @@ npm install react-router-bootstrap react-router-dom
 npm i --save-dev @types/react-router-dom
 npm install rxjs undux moment sass
 npm install bulma
+npm install axios
 ```
 
 # Getting Started with Create React App
