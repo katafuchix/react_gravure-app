@@ -1,3 +1,18 @@
+```
+npx create-react-app gravure-app --template typescript
+cd gravure-app
+npm start
+npm install bootstrap react-bootstrap
+npm install react-bootstrap-icons
+npm install react-router-bootstrap react-router-dom
+npm i --save-dev @types/react-router-dom
+npm install rxjs undux moment sass
+npm install bulma
+npm install axios
+npm install mdbreact
+npm install styled-components
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
