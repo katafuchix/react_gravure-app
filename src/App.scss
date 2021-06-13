@@ -1,3 +1,25 @@
 @import "./variables.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "./bootswatch.scss";
+
+/*
+body{
+    padding-top: 60px;
+}
+*/
+
+#root{
+    padding-top: 60px;
+}
+
+.col-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xl-4 {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}

@@ -16,9 +16,11 @@ import Home from './Components/Home'
 import About from './Components/About'
 import PersonList from './Components/PersonList'
 import GravureList from './Components/GravureList'
+import AppDataStore from './stores/AppDataStore';
 
 function App() {
   return (
+    <AppDataStore.Container>
     <div className="App">
         <Router>
         <NavBar />
@@ -59,6 +61,7 @@ function App() {
         </Switch>
     </Router>
     </div>
+    </AppDataStore.Container>
   );
 }
 

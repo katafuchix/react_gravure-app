@@ -21,9 +21,18 @@ export default class PersonList extends React.Component {
 
   render() {
     return (
-      <ul>
-        { this.state.persons.map(person => <li key={person.id}>{person.title}</li>)}
-      </ul>
+      <div>
+        <section className="section">
+          <div className="container">
+            <div className="columns is-vcentered is-multiline">
+            <ul>
+              { this.state.persons.map(person => <li key={person.id}>{person.title}</li>)}
+            </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
     )
   }
 }
