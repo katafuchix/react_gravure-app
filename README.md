@@ -5,7 +5,9 @@ npm start
 npm install bootstrap react-bootstrap
 npm install react-bootstrap-icons
 npm install react-router-bootstrap react-router-dom
+npm i --save-dev @types/react-router-dom
 npm install rxjs undux moment sass
+npm install bulma
 ```
 
 # Getting Started with Create React App
