@@ -10,6 +10,7 @@ npm install rxjs undux moment sass
 npm install bulma
 npm install axios
 npm install mdbreact
+npm install styled-components
 ```
 
 # Getting Started with Create React App
