@@ -9,6 +9,7 @@ npm i --save-dev @types/react-router-dom
 npm install rxjs undux moment sass
 npm install bulma
 npm install axios
+npm install mdbreact
 ```
 
 # Getting Started with Create React App
